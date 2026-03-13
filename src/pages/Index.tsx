@@ -55,7 +55,7 @@ export default function Index() {
         {/* Full-width photo */}
         <div className="w-full" style={{ maxHeight: "70vh", overflow: "hidden" }}>
           <img
-            src="https://cdn.poehali.dev/projects/1c8607f0-88bf-447b-8480-939e3bc3940a/bucket/b18194aa-57a0-41e1-b753-93d3244993e8.jpg"
+            src="https://cdn.poehali.dev/projects/1c8607f0-88bf-447b-8480-939e3bc3940a/bucket/0941a73d-d26f-495f-af0d-4c3bac324ba6.jpg"
             alt="Захар"
             className="w-full object-cover object-top"
             style={{ maxHeight: "70vh" }}
