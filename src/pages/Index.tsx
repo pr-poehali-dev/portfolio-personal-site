@@ -65,15 +65,20 @@ export default function Index() {
             </h2>
             <div className="space-y-6 font-body text-base font-light text-foreground/60 leading-relaxed max-w-xl">
               <p>
-                Сделал этот сайт как проект для двух пятёрок по информатике.
+                Здесь вы можете рассказать о себе — ваш профессиональный путь,
+                увлечения, ценности и подход к работе.
+              </p>
+              <p>
+                Несколько предложений о том, что вас вдохновляет и что отличает
+                вас от других.
               </p>
             </div>
             <div className="h-px bg-border mt-12 mb-12" />
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
               {[
-                { label: "Направление", value: "Физмат" },
-                { label: "Местоположение", value: "Тасеево" },
-                { label: "Опыт", value: "0 лет" },
+                { label: "Направление", value: "Ваша сфера" },
+                { label: "Местоположение", value: "Ваш город" },
+                { label: "Опыт", value: "N лет" },
               ].map((item) => (
                 <div key={item.label}>
                   <p className="font-body text-[10px] tracking-[0.25em] uppercase text-foreground/30 mb-1">
