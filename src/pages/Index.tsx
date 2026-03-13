@@ -59,10 +59,18 @@ export default function Index() {
             </span>
           </div>
           <div>
-            <h2 className="font-display text-[clamp(2rem,5vw,4rem)] font-light leading-tight text-foreground mb-10">
-              Немного<br />
-              <em className="italic text-foreground/40">о себе</em>
-            </h2>
+            <div className="flex items-start gap-8 mb-10">
+              <img
+                src="https://cdn.poehali.dev/projects/1c8607f0-88bf-447b-8480-939e3bc3940a/bucket/b18194aa-57a0-41e1-b753-93d3244993e8.jpg"
+                alt="Захар"
+                className="w-24 h-24 md:w-32 md:h-32 object-cover object-top grayscale"
+                style={{ filter: "grayscale(20%)" }}
+              />
+              <h2 className="font-display text-[clamp(2rem,5vw,4rem)] font-light leading-tight text-foreground">
+                Немного<br />
+                <em className="italic text-foreground/40">о себе</em>
+              </h2>
+            </div>
             <div className="space-y-6 font-body text-base font-light text-foreground/60 leading-relaxed max-w-xl">
               <p>
                 Здесь вы можете рассказать о себе — ваш профессиональный путь,
