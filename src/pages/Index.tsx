@@ -31,8 +31,8 @@ export default function Index() {
             Добро пожаловать
           </p>
           <h1 className="font-display text-[clamp(3.5rem,10vw,9rem)] font-light leading-[0.9] tracking-tight text-foreground animate-fade-up delay-300">
-            Ваше<br />
-            <em className="italic text-foreground/40">Имя</em>
+            Я —<br />
+            <em className="italic text-foreground/40">Захар</em>
           </h1>
           <div className="h-px bg-foreground animate-line-grow origin-left mt-10 delay-600" />
           <p className="font-body text-base font-light text-foreground/50 mt-6 max-w-md leading-relaxed animate-fade-up delay-700">
@@ -147,7 +147,7 @@ export default function Index() {
           © 2026
         </span>
         <span className="font-display text-sm italic text-foreground/25">
-          Ваше имя
+          Захар
         </span>
       </footer>
     </div>
