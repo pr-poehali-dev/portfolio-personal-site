@@ -109,9 +109,9 @@ export default function Index() {
             </h2>
             <div className="space-y-0">
               {[
-                { icon: "Mail", label: "Почта", value: "your@email.com", href: "mailto:your@email.com" },
-                { icon: "Phone", label: "Телефон", value: "+7 (000) 000-00-00", href: "tel:+70000000000" },
-                { icon: "Send", label: "Telegram", value: "@username", href: "https://t.me/username" },
+                { icon: "Phone", label: "Телефон", value: "+7 (950) 437-11-79", href: "tel:+79504371179" },
+                { icon: "Send", label: "Telegram", value: "@Flyzless", href: "https://t.me/Flyzless" },
+                { icon: "Users", label: "ВКонтакте", value: "vk.com/id745722914", href: "https://vk.com/id745722914" },
               ].map((contact) => (
                 <a
                   key={contact.label}
