@@ -52,16 +52,6 @@ export default function Index() {
 
       {/* About */}
       <section id="about" className="border-t border-border">
-        {/* Full-width photo */}
-        <div className="w-full" style={{ maxHeight: "70vh", overflow: "hidden" }}>
-          <img
-            src="https://cdn.poehali.dev/projects/1c8607f0-88bf-447b-8480-939e3bc3940a/bucket/0941a73d-d26f-495f-af0d-4c3bac324ba6.jpg"
-            alt="Захар"
-            className="w-full object-cover object-top"
-            style={{ maxHeight: "70vh" }}
-          />
-        </div>
-
         <div className="px-8 md:px-16 py-24 md:py-36">
           <div className="max-w-5xl grid md:grid-cols-[1fr_2fr] gap-16 md:gap-24">
             <div>
