@@ -36,7 +36,7 @@ export default function Index() {
           </h1>
           <div className="h-px bg-foreground animate-line-grow origin-left mt-10 delay-600" />
           <p className="font-body text-base font-light text-foreground/50 mt-6 max-w-md leading-relaxed animate-fade-up delay-700">
-            Краткое описание — кто вы, чем занимаетесь, ваша специализация.
+            Живу в Тасееве, учусь в школе №2.
           </p>
         </div>
         <div className="mt-16 animate-fade-up delay-800">
