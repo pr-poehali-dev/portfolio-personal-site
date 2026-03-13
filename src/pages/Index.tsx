@@ -51,52 +51,51 @@ export default function Index() {
       </section>
 
       {/* About */}
-      <section id="about" className="px-8 md:px-16 py-24 md:py-36 border-t border-border">
-        <div className="max-w-5xl grid md:grid-cols-[1fr_2fr] gap-16 md:gap-24">
-          <div>
-            <span className="font-body text-xs tracking-[0.3em] uppercase text-foreground/30">
-              01 / О мне
-            </span>
-          </div>
-          <div>
-            <div className="flex items-start gap-8 mb-10">
-              <img
-                src="https://cdn.poehali.dev/projects/1c8607f0-88bf-447b-8480-939e3bc3940a/bucket/b18194aa-57a0-41e1-b753-93d3244993e8.jpg"
-                alt="Захар"
-                className="w-24 h-24 md:w-32 md:h-32 object-cover object-top grayscale"
-                style={{ filter: "grayscale(20%)" }}
-              />
-              <h2 className="font-display text-[clamp(2rem,5vw,4rem)] font-light leading-tight text-foreground">
+      <section id="about" className="border-t border-border">
+        {/* Full-width photo */}
+        <div className="w-full" style={{ maxHeight: "70vh", overflow: "hidden" }}>
+          <img
+            src="https://cdn.poehali.dev/projects/1c8607f0-88bf-447b-8480-939e3bc3940a/bucket/b18194aa-57a0-41e1-b753-93d3244993e8.jpg"
+            alt="Захар"
+            className="w-full object-cover object-top"
+            style={{ maxHeight: "70vh" }}
+          />
+        </div>
+
+        <div className="px-8 md:px-16 py-24 md:py-36">
+          <div className="max-w-5xl grid md:grid-cols-[1fr_2fr] gap-16 md:gap-24">
+            <div>
+              <span className="font-body text-xs tracking-[0.3em] uppercase text-foreground/30">
+                01 / О мне
+              </span>
+            </div>
+            <div>
+              <h2 className="font-display text-[clamp(2rem,5vw,4rem)] font-light leading-tight text-foreground mb-10">
                 Немного<br />
                 <em className="italic text-foreground/40">о себе</em>
               </h2>
-            </div>
-            <div className="space-y-6 font-body text-base font-light text-foreground/60 leading-relaxed max-w-xl">
-              <p>
-                Здесь вы можете рассказать о себе — ваш профессиональный путь,
-                увлечения, ценности и подход к работе.
-              </p>
-              <p>
-                Несколько предложений о том, что вас вдохновляет и что отличает
-                вас от других.
-              </p>
-            </div>
-            <div className="h-px bg-border mt-12 mb-12" />
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-              {[
-                { label: "Направление", value: "Ваша сфера" },
-                { label: "Местоположение", value: "Ваш город" },
-                { label: "Опыт", value: "N лет" },
-              ].map((item) => (
-                <div key={item.label}>
-                  <p className="font-body text-[10px] tracking-[0.25em] uppercase text-foreground/30 mb-1">
-                    {item.label}
-                  </p>
-                  <p className="font-body text-sm text-foreground/70 font-light">
-                    {item.value}
-                  </p>
-                </div>
-              ))}
+              <div className="space-y-6 font-body text-base font-light text-foreground/60 leading-relaxed max-w-xl">
+                <p>
+                  Сделал этот сайт как проект для двух пятёрок по информатике.
+                </p>
+              </div>
+              <div className="h-px bg-border mt-12 mb-12" />
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+                {[
+                  { label: "Направление", value: "Физмат" },
+                  { label: "Местоположение", value: "Тасеево" },
+                  { label: "Опыт", value: "0 лет" },
+                ].map((item) => (
+                  <div key={item.label}>
+                    <p className="font-body text-[10px] tracking-[0.25em] uppercase text-foreground/30 mb-1">
+                      {item.label}
+                    </p>
+                    <p className="font-body text-sm text-foreground/70 font-light">
+                      {item.value}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
