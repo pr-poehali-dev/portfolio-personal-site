@@ -60,10 +60,17 @@ export default function Index() {
               </span>
             </div>
             <div>
-              <h2 className="font-display text-[clamp(2rem,5vw,4rem)] font-light leading-tight text-foreground mb-10">
-                Немного<br />
-                <em className="italic text-foreground/40">о себе</em>
-              </h2>
+              <div className="flex items-start gap-8 mb-10">
+                <img
+                  src="https://cdn.poehali.dev/files/97f4349b-68d3-4dfb-aa02-72eef6f6ec2b.jpg"
+                  alt="Захар"
+                  className="w-28 h-36 md:w-36 md:h-48 object-cover object-top flex-shrink-0"
+                />
+                <h2 className="font-display text-[clamp(2rem,5vw,4rem)] font-light leading-tight text-foreground">
+                  Немного<br />
+                  <em className="italic text-foreground/40">о себе</em>
+                </h2>
+              </div>
               <div className="space-y-6 font-body text-base font-light text-foreground/60 leading-relaxed max-w-xl">
                 <p>
                   Сделал этот сайт как проект для двух пятёрок по информатике.
